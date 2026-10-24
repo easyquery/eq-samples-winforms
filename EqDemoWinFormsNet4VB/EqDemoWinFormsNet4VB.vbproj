@@ -56,24 +56,22 @@
     <Reference Include="Microsoft.VisualBasic" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="EntityFramework" Version="6.2.0" />
-    <PackageReference Include="System.Data.SqlClient">
-      <Version>4.8.6</Version>
-    </PackageReference>
+    <PackageReference Include="EntityFramework" />
+    <PackageReference Include="System.Data.SqlClient" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Korzh.EasyQuery.Db" Version="7.5.0" />
-    <PackageReference Include="Korzh.EasyQuery.WinForms" Version="7.5.0" />
-    <PackageReference Include="Korzh.EasyQuery.SqlServerGate" Version="7.5.0" />
-    <PackageReference Include="Korzh.EasyQuery.DataExport" Version="7.5.0" />
-    <PackageReference Include="Korzh.EasyQuery.EntityFramework6" Version="7.5.0" />
+    <PackageReference Include="Korzh.EasyQuery.Db" />
+    <PackageReference Include="Korzh.EasyQuery.WinForms" />
+    <PackageReference Include="Korzh.EasyQuery.SqlServerGate" />
+    <PackageReference Include="Korzh.EasyQuery.DataExport" />
+    <PackageReference Include="Korzh.EasyQuery.EntityFramework6" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Korzh.DbUtils.Import" Version="1.4.3" />
-    <PackageReference Include="Korzh.DbUtils.SqlServer" Version="1.4.3" />
+    <PackageReference Include="Korzh.DbUtils.Import" />
+    <PackageReference Include="Korzh.DbUtils.SqlServer" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="EasyData.Exporters.ClosedXML" Version="1.6.0" />
+    <PackageReference Include="EasyData.Exporters.ClosedXML" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <ItemGroup>

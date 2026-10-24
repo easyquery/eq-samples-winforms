@@ -1,0 +1,29 @@
+<Project>
+  <!-- Package versions for every project in this repository (NuGet central package management). -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup Label="EasyQuery and EasyData">
+    <PackageVersion Include="EasyData.Core" Version="1.6.0" />
+    <PackageVersion Include="EasyData.Exporters.ClosedXML" Version="1.6.0" />
+    <PackageVersion Include="EasyData.Exporters.Default" Version="1.6.0" />
+    <PackageVersion Include="Korzh.EasyQuery.DataExport" Version="7.5.0" />
+    <PackageVersion Include="Korzh.EasyQuery.Db" Version="7.5.0" />
+    <PackageVersion Include="Korzh.EasyQuery.EntityFramework6" Version="7.5.0" />
+    <PackageVersion Include="Korzh.EasyQuery.EntityFrameworkCore.Relational" Version="7.5.0" />
+    <PackageVersion Include="Korzh.EasyQuery.SqlServerGate" Version="7.5.0" />
+    <PackageVersion Include="Korzh.EasyQuery.WinForms" Version="7.5.0" />
+  </ItemGroup>
+  <ItemGroup Label="Other packages">
+    <PackageVersion Include="EntityFramework" Version="6.2.0" />
+    <PackageVersion Include="Korzh.DbUtils.Import" Version="1.4.3" />
+    <PackageVersion Include="Korzh.DbUtils.SqlServer" Version="1.4.3" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.8" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.8" />
+    <PackageVersion Include="Microsoft.Extensions.Primitives" Version="9.0.8" />
+    <PackageVersion Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+</Project>
