@@ -17,7 +17,8 @@ to .NET applications. The samples in this repository show it on Windows Forms.
 
 ## Quick start
 
-1. Get the code: `git clone https://github.com/easyquery/eq-samples-winforms.git`, or **Code → Download ZIP** on this page.
+1. Get the code: [download the ZIP](https://github.com/easyquery/eq-samples-winforms/archive/refs/heads/main.zip),
+   or `git clone https://github.com/easyquery/eq-samples-winforms.git`.
 2. Open `Samples.WinForms.sln` in Visual Studio 2022 (17.2 or later).
 3. Set the sample you want as the startup project and run it.
 
@@ -33,14 +34,13 @@ EasyQuery version, change it there.
 
 ## License key
 
-EasyQuery needs a license key. A free 30-day trial key takes about a minute to get:
-[register on korzh.com](https://korzh.com/easyquery?utm_source=github&utm_medium=sample&utm_campaign=eq-samples-winforms#get-started).
-
-Set it in code, before the EasyQuery controls are created (see `EasyQueryForm`):
+You don't need one to try the samples. Without a key they show a short reminder that EasyQuery is in trial mode. A purchased license key removes it; set it in code, before the EasyQuery controls are created (see `EasyQueryForm`):
 
 ```csharp
-Korzh.EasyQuery.WinForms.License.Key = "your trial key goes here";
+Korzh.EasyQuery.WinForms.License.Key = "your key goes here";
 ```
+
+Ready to buy? See the [licensing options on korzh.com](https://korzh.com/easyquery?utm_source=github&utm_medium=sample&utm_campaign=eq-samples-winforms#winforms-edition).
 
 ## Other platforms
 
