@@ -9,7 +9,7 @@ to .NET applications. The samples in this repository show it on Windows Forms.
 
 | Sample | Scenario | Stack |
 |---|---|---|
-| [Query builder (.NET)](EqDemoWinFormsNet6) | Query builder | .NET 6 · Windows Forms · C# |
+| [Query builder (.NET)](EqDemoWinFormsNet6) | Query builder | .NET 10 · Windows Forms · C# |
 | [Query builder (.NET Framework)](EqDemoWinFormsNet4) | Query builder | .NET Framework 4.8.1 · Windows Forms · C# |
 | [Query builder (.NET Framework, Visual Basic)](EqDemoWinFormsNet4VB) | Query builder | .NET Framework 4.7.2 · Windows Forms · Visual Basic |
 

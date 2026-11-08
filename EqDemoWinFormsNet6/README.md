@@ -8,7 +8,7 @@ Part of [EasyQuery samples for Windows Forms](../README.md).
 
 | | |
 |---|---|
-| Host | .NET 6 |
+| Host | .NET 10 |
 | UI | Windows Forms |
 | Language | C# |
 | EasyQuery | 7.5.0 — `Korzh.EasyQuery.Db`, `Korzh.EasyQuery.WinForms`, `Korzh.EasyQuery.SqlServerGate`, `Korzh.EasyQuery.EntityFrameworkCore.Relational` |
@@ -17,7 +17,7 @@ Part of [EasyQuery samples for Windows Forms](../README.md).
 
 ## Prerequisites
 
-* [.NET 6 SDK](https://dotnet.microsoft.com/download)
+* [.NET 10 SDK](https://dotnet.microsoft.com/download)
 * Windows; Visual Studio 2022 17.2 or later is recommended
 * SQL Server Express LocalDB (installed with Visual Studio)
 
