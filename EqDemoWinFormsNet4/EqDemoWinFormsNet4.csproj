@@ -93,7 +93,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="app.manifest" />
-    <None Include="App_Data\Empolyee of the year.json">
+    <None Include="App_Data\Employee of the year.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="App_Data\Sales by product %28this year%29.json">
